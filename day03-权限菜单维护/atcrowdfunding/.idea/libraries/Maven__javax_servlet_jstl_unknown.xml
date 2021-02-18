@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="Maven: javax.servlet:jstl:unknown">
+    <CLASSES>
+      <root url="jar://G:/LocalRepository/javax/servlet/jstl/unknown/jstl-unknown.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://G:/LocalRepository/javax/servlet/jstl/unknown/jstl-unknown-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://G:/LocalRepository/javax/servlet/jstl/1.2/jstl-1.2-sources.jar!/" />
+      <root url="jar://G:/LocalRepository/javax/servlet/jstl/unknown/jstl-unknown-sources.jar!/" />
+    </SOURCES>
+    <excluded>
+      <root url="jar://G:/LocalRepository/javax/servlet/jstl/1.2/jstl-1.2-sources.jar!/" />
+    </excluded>
+  </library>
+</component>
