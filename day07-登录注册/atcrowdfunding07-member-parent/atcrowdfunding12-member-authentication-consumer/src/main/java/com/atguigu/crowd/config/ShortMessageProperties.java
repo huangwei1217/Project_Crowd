@@ -7,9 +7,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-@NoArgsConstructor
-@AllArgsConstructor
-@Data
+
 @Component
 @ConfigurationProperties(prefix = "short.message")
 public class ShortMessageProperties {
@@ -21,4 +19,70 @@ public class ShortMessageProperties {
 	private String sign;
 	private String skin;
 
+	public ShortMessageProperties() {
+	}
+
+	public String getHost() {
+		return host;
+	}
+
+	public void setHost(String host) {
+		this.host = host;
+	}
+
+	public String getPath() {
+		return path;
+	}
+
+	public void setPath(String path) {
+		this.path = path;
+	}
+
+	public String getMethod() {
+		return method;
+	}
+
+	public void setMethod(String method) {
+		this.method = method;
+	}
+
+	public String getAppCode() {
+		return appCode;
+	}
+
+	public void setAppCode(String appCode) {
+		this.appCode = appCode;
+	}
+
+	public String getSign() {
+		return sign;
+	}
+
+	public void setSign(String sign) {
+		this.sign = sign;
+	}
+
+	public String getSkin() {
+		return skin;
+	}
+
+	public void setSkin(String skin) {
+		this.skin = skin;
+	}
+
+	public ShortMessageProperties(String host, String path, String method, String appCode, String sign, String skin) {
+		this.host = host;
+		this.path = path;
+		this.method = method;
+		this.appCode = appCode;
+		this.sign = sign;
+		this.skin = skin;
+	}
+
+	public ShortMessageProperties(String host, String path, String method, String appCode) {
+		this.host = host;
+		this.path = path;
+		this.method = method;
+		this.appCode = appCode;
+	}
 }

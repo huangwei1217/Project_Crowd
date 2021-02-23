@@ -7,6 +7,14 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -20,12 +28,106 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/atcrowdfunding07-member-parent/atcrowdfunding12-member-authentication-consumer/src/main/resources/templates" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.atguigu.crowd.filter" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\ideal_workspace\project_crowd\day07-登录注册\atcrowdfunding07-member-parent\atcrowdfunding12-member-authentication-consumer\src\main\resources\templates" />
+      <recent name="H:\ideal_workspace\project_crowd\day07-登录注册\atcrowdfunding07-member-parent\atcrowdfunding13-member-project-consumer\src\main\java" />
+      <recent name="H:\ideal_workspace\project_crowd\day07-登录注册\atcrowdfunding07-member-parent\atcrowdfunding13-member-project-consumer\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.CrowdMainClass (2)">
+    <configuration name="CrowdMainClass (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="atcrowdfunding08-member-eureka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.crowd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.crowd.CrowdMainClass" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CrowdMainClass (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="atcrowdfunding12-member-authentication-consumer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.crowd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.crowd.CrowdMainClass" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CrowdMainClass (3)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="atcrowdfunding11-member-redis-provider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.crowd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.crowd.CrowdMainClass" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CrowdMainClass (4)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="atcrowdfunding16-member-zuul" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.crowd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.crowd.CrowdMainClass" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CrowdMainClass" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="atcrowdfunding10-member-mysql-provider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.crowd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.crowd.CrowdMainClass" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.CrowdMainClass (2)" />
+        <item itemvalue="Spring Boot.CrowdMainClass (4)" />
+        <item itemvalue="Spring Boot.CrowdMainClass (3)" />
+        <item itemvalue="Spring Boot.CrowdMainClass" />
+        <item itemvalue="Spring Boot.CrowdMainClass (1)" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -38,10 +140,77 @@
       <option name="presentableId" value="Default" />
       <updated>1614006030905</updated>
       <workItem from="1614006032176" duration="1302000" />
+      <workItem from="1614060668342" duration="25495000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1614060740516">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1614060740516" />
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1614081205026">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1614081205026" />
+    <state x="229" y="279" width="1077" height="272" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1614081133784">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="229" y="279" width="1077" height="272" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1614081133784" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1614092733931">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1614092733931" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1614061700085">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1614061700085" />
+    <state width="1492" height="101" key="GridCell.Tab.0.bottom" timestamp="1614093330367">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="101" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1614093330367" />
+    <state width="1492" height="101" key="GridCell.Tab.0.center" timestamp="1614093330367">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="101" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1614093330367" />
+    <state width="1492" height="101" key="GridCell.Tab.0.left" timestamp="1614093330367">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="101" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1614093330367" />
+    <state width="1492" height="101" key="GridCell.Tab.0.right" timestamp="1614093330367">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="101" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1614093330367" />
+    <state width="1492" height="101" key="GridCell.Tab.1.bottom" timestamp="1614093330367">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="101" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1614093330367" />
+    <state width="1492" height="101" key="GridCell.Tab.1.center" timestamp="1614093330367">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="101" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1614093330367" />
+    <state width="1492" height="101" key="GridCell.Tab.1.left" timestamp="1614093330367">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="101" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1614093330367" />
+    <state width="1492" height="101" key="GridCell.Tab.1.right" timestamp="1614093330367">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="101" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1614093330367" />
+    <state x="299" y="67" key="Maven.ArtifactSearchDialog" timestamp="1614091305402">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="299" y="67" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1614091305402" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1614060714244">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1614060714244" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1614082175250">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1614082175250" />
   </component>
 </project>

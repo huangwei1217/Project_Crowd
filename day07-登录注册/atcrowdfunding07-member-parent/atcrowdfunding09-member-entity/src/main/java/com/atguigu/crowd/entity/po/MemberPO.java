@@ -4,9 +4,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-@NoArgsConstructor
-@AllArgsConstructor
-@Data
+
 public class MemberPO {
     private Integer id;
 
@@ -27,6 +25,22 @@ public class MemberPO {
     private String cardnum;
 
     private Integer accttype;
+
+    public MemberPO(Integer id, String loginacct, String userpswd, String username, String email, Integer authstatus, Integer usertype, String realname, String cardnum, Integer accttype) {
+        this.id = id;
+        this.loginacct = loginacct;
+        this.userpswd = userpswd;
+        this.username = username;
+        this.email = email;
+        this.authstatus = authstatus;
+        this.usertype = usertype;
+        this.realname = realname;
+        this.cardnum = cardnum;
+        this.accttype = accttype;
+    }
+
+    public MemberPO() {
+    }
 
     public Integer getId() {
         return id;

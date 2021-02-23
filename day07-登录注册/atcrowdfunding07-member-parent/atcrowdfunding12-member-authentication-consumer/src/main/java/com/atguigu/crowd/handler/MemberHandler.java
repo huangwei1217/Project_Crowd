@@ -172,9 +172,10 @@ public class MemberHandler {
 				shortMessageProperties.getHost(), 
 				shortMessageProperties.getPath(), 
 				shortMessageProperties.getMethod(), phoneNum, 
-				shortMessageProperties.getAppCode(), 
-				shortMessageProperties.getSign(), 
-				shortMessageProperties.getSkin());
+				shortMessageProperties.getAppCode(),
+				shortMessageProperties.getSign(),
+				shortMessageProperties.getSkin()
+		);
 		
 		// 2.判断短信发送结果
 		if(ResultEntity.SUCCESS.equals(sendMessageResultEntity.getResult())) {

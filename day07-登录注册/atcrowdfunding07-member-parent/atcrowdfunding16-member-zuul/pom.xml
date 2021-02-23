@@ -10,12 +10,23 @@
 	<artifactId>atcrowdfunding16-member-zuul</artifactId>
 	<dependencies>
 		<dependency>
+			<groupId>com.atguigu.crowd</groupId>
+			<artifactId>atcrowdfunding09-member-entity</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-netflix-zuul</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.atguigu.crowd</groupId>
+			<artifactId>atcrowdfunding05-common-util</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+			<scope>compile</scope>
 		</dependency>
 	</dependencies>
 </project>

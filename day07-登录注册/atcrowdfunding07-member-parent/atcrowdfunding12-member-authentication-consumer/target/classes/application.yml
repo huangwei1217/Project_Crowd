@@ -1,17 +1,26 @@
 server:
   port: 4000
-spring:  application:    name: atguigu-crowd-auth
-  thymeleaf:    prefix: classpath:/templates/
+spring:
+  application:
+    name: atguigu-crowd-auth
+  thymeleaf:
+    prefix: classpath:/templates/
     suffix: .html
+  redis:
+    host: 192.168.93.134
+  session:
+    store-type: redis
 eureka:
   client:
     service-url:
       defaultZone: http://localhost:1000/eureka
-short:  message:    app-code: 61f2eaa3c43e42ad82c26fbbe1061311
-    host: https://feginesms.market.alicloudapi.com
-    method: GET
-    path: /codeNotice
-    sign: 151003
+short:
+  message:
+    app-code: 8ac732670c5c4565b1965deca9401ffc
+    host: https://gyytz.market.alicloudapi.com
+    method: POST
+    path: /sms/smsSend
+    sign: hw157280
     skin: 84683
 ribbon:
   ReadTimeout: 10000
